@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Al_Mashhouri Auto Garage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Al_Mashhouri Logo" id="logo">
+        <h1>Al_Mashhouri Auto Garage</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#suggestions">Suggestions & Comments</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#appointment">Book an Appointment</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Al_Mashhouri Auto Garage. We specialize in vehicle repair and maintenance with a focus on quality and customer satisfaction.</p>
+    </section>
+
+    <section id="work">
+        <h2>Our Work</h2>
+        <div class="gallery">
+            <img src="images/car1.jpg" alt="Workshop Image">
+            <img src="images/car2.jpg" alt="Golf R">
+            <img src="images/car3.jpg" alt="Kia on Lift">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Engine diagnostics and repair</li>
+            <li>Brake and suspension services</li>
+            <li>Oil change and maintenance</li>
+            <li>Electrical system repair</li>
+        </ul>
+    </section>
+
+    <section id="suggestions">
+        <h2>Suggestions & Comments</h2>
+        <form id="commentForm">
+            <textarea name="comment" placeholder="Leave your comment here..." required></textarea><br>
+            <input type="text" name="name" placeholder="Your name" required><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="commentsSection"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:fadikhalaileh@hotmail.com">fadikhalaileh@hotmail.com</a></p>
+        <p>Email: <a href="mailto:khalilalasmail0@gmail.com">khalilalasmail0@gmail.com</a></p>
+        <p>Phone: <a href="tel:+447375924455">+44 7375 924455</a></p>
+    </section>
+
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form id="appointmentForm">
+            <input type="text" name="name" placeholder="Your name" required><br>
+            <input type="email" name="email" placeholder="Your email" required><br>
+            <input type="datetime-local" name="datetime" required><br>
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="appointmentConfirmation"></div>
+    </section>
+
+    <footer>
+        <p>Location: AJS Fabrications, 27 Lamledge Ln, Shifnal TF11 8SD</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
